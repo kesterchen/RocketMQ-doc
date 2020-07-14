@@ -1,5 +1,5 @@
 FROM java:alpine
-MAINTAINER caozg007
+MAINTAINER kester
 WORKDIR /opt
 COPY broker-entrypoint.sh  broker-entrypoint.sh
 COPY clusterlist.sh clusterlist.sh
